@@ -3,61 +3,68 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <meta name="viewport" content="width-device, initial-scale=1.0">
+    <meta http-equiv="X-UA Compatible" content="ie=edge">
+    <title>Fernando Avalos // Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
     <header>
-        <h1>Ferando Avalos</h1>
+        <h1>Portfolio</h1>
         <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-info">Contact info</a>
-                </li>
-            </ul>
+            <a href="#about">About Me</a>
+            <a href="#projects">Beginner projects</a>
+            <a href="#contact">Contact Me</a>
         </nav>
     </header>
-    <section id="about-me">
-        <h2>About me</h2>
-        <div class="flex-container">
-            <p>
-                I am currently discovering web development at University of Irvine Coding and programming Bootcamp course
-            </p>
-        </div>
-    </section>
-    <section id="work">
-        <h2>Work</h2>
-        <div class="flex-container">
-            <img src="./Assets/About Me.png" alt="About Me">
-            <p>
-                This is a mini project we learned in class.
-            </p>
-        </div>
-        <div class="flex-container">
-            <img src="./Assets/Refactor Homework.png" alt="Refactor">
-            <p>
-                This is a Code Refactor mini project.
-            </p>
-        </div>
-    </section>
-    <section id="contact-info">
-        <h2>Contact Info</h2>
-        <div class="flex-container">
-            <p>
 
-            </p>
+    <section class="hero-banner">
+        <div>
+            <h2>Fernando Avalos Torres</h2>
         </div>
     </section>
 
+    <main class="page-wrapper">
+        <section class="page-section" id="about">
+            <h2>About myself</h2>
+            <div>
+                <p>
+                    Currently working as a compounding technician for a vinyl graphic company. Looking to expand my skills in web development. In 2022 started attending an online bootcamp program at the University of california. It is a full stack codeing and programming
+                    course. I am looking forward to growing a new career path in the near future.
+                </p>
+                <p>
+                    On my free time I goto the gym for personal goals in fitness and I also watch Sunday Mass online to enhance my spirit.
+                </p>
+            </div>
+        </section>
+
+        <section class="page-section" id="projects">
+            <h3>Beginner projects</h3>
+            <div class="flex container">
+
+                <a target="_blank" href="https://favalos06.github.io/prework-about-me/" class="flex-item">
+                    <div>
+                        <h4>Beginner projects</h4>
+                        <span>Mini project htlm</span>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <footer>
+            <section class="page-section contact" id="contact">
+                <h4>Contact Me</h4>
+                <div>
+                    <address>
+            <a href="tel:+17147375523">714.737.5523</a>
+            <a href="mailto:fernando.avalostorres91@gamil.com">fernado.avalostorres91@gmail.com</a>
+            <a href="https://github.com/favalos06">Github</a>
+          </address>
+                </div>
+
+            </section>
+        </footer>
+    </main>
 </body>
-
-</html>
