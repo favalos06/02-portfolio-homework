@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    padding: 5px 15px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 .35rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+
+header nav ul li a:after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    bottom: -22px;
+    min-height: 0;
+    transition: min-height .25s ease;
+}
+
+header nav ul li a:hover:after{
+    min-height: 5px;
+}
+
+.hero-banner {
+    padding: 30px;
+}
+
+.hero-banner h1 {
+    font-size: 56px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.hero-banner img {
+    display: block;
+    margin: auto;
+    width: max(20%, 270px);
+}
+
+@media (min-width: 960px) {
+    header nav ul li {
+        margin: 0 40px;
+    }
+}
